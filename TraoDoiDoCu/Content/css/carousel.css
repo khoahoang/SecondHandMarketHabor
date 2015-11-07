@@ -1,0 +1,336 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-top: 70px;
+  /*padding-bottom: 40px;*/
+  color: #000000;
+/*  padding-left: 100px;
+  padding-right: 100px;*/
+}
+
+.footer {
+  background: url('../images/coffee.jpg') no-repeat;
+  margin-top: 25px;   
+  height: 200px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+}
+
+.row{
+    margin: 0;
+}
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+  background-color: #66583E;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+
+.navbar-header .navbar-brand > img {
+  width: 220px;
+  height: 50px;
+  margin-top: -15px;
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 250px;
+  margin-bottom: 10px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 250px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  min-width: 100%;
+  height: 250px;
+}
+
+/*CUSTOMIZE PROCESS
+-------------------------------------------------*/
+#stage_add ul {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+.stage_style{
+  float: left;
+  width: 120px;
+  background-color: #fff ;
+  margin: 5px;
+  display: inline-block;
+  position: relative;
+  background: #CCCCCC;
+  padding: 10px 0;
+}
+
+.stage_style:AFTER {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 100%;
+  top: 50%;
+  margin-top: -20px;
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-right: 0px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 10px solid #CCCCCC;
+}
+
+.stage_style:BEFORE {
+  content: '';
+  display: block;
+  position: absolute;
+  right: 100%;
+  top: 50%;
+  left: 0px;
+  margin-top: -20px;
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-right: 0px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 10px solid #fff;
+}
+
+.stage_style.visited{
+  background: #3399FF;
+}
+
+.stage_style.visited:AFTER {
+  
+  border-left: 10px solid #3399FF;
+}
+
+.stage_style.current{
+  background: orange;
+}
+
+.stage_style.current:AFTER {
+  border-left: 10px solid orange;
+}
+
+.badge {
+  margin-right: 5px;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 80px 0;  /*Space out the Bootstrap <hr> more */
+}
+
+.normal-divider {
+  margin: 5px, 0;
+  border-top: 1px solid #f2f2f2;
+}
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+/* Other
+--------------------------*/
+.center {
+  display : table-cell;
+  vertical-align : middle;
+}
+
+.align-with-label {
+  margin-top: 7px;
+}
+
+.img-success {
+  margin-right: 5px;
+}
+  
+.success-notice {
+  background: #FFFEF4 none repeat scroll 0% 0%;
+  margin-top: 10px;
+  padding: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #FF9500;
+  
+  border-image: none;
+  border-radius: 5px;
+}  
+
+.text-underline {
+  text-decoration: underline;
+}
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 20px;
+  }
+  .navbar-wrapper .container {
+  }
+  .navbar-wrapper .navbar {
+    padding: 10px 195px;
+  }
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 0px;
+  }
+
+  /*Content*/
+  .content {
+    padding: 0 195px;
+  }
+
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+
+  /*Other*/
+  
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 120px;
+  }
+}
+
+@media (min-width: @screen-sm-min) {
+
+}
+@media (min-width: @screen-md-min) {
+  .content {
+    padding: 0 100px;
+  }
+}
+@media (min-width: @screen-lg-min) {
+  .content {
+    padding: 0 100px;
+  }
+}
+
+/* AVATAR
+-------------------------------------------------- */
+
+.avatar {
+    float: left;
+    margin-top: 2px;
+    margin-right: 2px;
+    position: relative;
+
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+
+    padding-right: 5px;
+    /*-webkit-box-shadow: 0 0 0 3px #fff, 0 0 0 4px #999, 0 2px 5px 4px rgba(0,0,0,.2);
+    -moz-box-shadow: 0 0 0 3px #fff, 0 0 0 4px #999, 0 2px 5px 4px rgba(0,0,0,.2);
+    box-shadow: 0 0 0 3px #fff, 0 0 0 4px #999, 0 2px 5px 4px rgba(0,0,0,.2);*/
+}
+
+h4.user-name{
+    margin-top: 15px;
+}
+
+/* RATING
+-------------------------------------------------- */
+
+fieldset, label { margin: 0; padding: 0; }
+
+fieldset{
+    width:133px;
+    height: 30px;
+}
+
+label{
+    height:30px;
+}
+
+/****** Style Star Rating Widget *****/
+
+.rating { 
+  border: none;
+  float: left;
+}
+
+.rating > input { display: none; } 
+.rating > label:before { 
+  margin: 5px;
+  font-size: 1.25em;
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f005";
+}
+
+.rating > .half:before { 
+  content: "\f089";
+  position: absolute;
+}
+
+.rating > label { 
+  color: #ddd; 
+ float: right; 
+}
+
+/***** CSS Magic to Highlight Stars on Hover *****/
+
+.rating > input:checked ~ label, /* show gold star when clicked */
+.rating:not(:checked) > label:hover, /* hover current star */
+.rating:not(:checked) > label:hover ~ label { color: #FFD700;  } /* hover previous stars in list */
+
+.rating > input:checked + label:hover, /* hover current star when changing rating */
+.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label, /* lighten current selection */
+.rating > input:checked ~ label:hover ~ label { color: #FFED85;  } 

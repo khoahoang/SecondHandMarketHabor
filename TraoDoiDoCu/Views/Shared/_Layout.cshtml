@@ -1,0 +1,172 @@
+﻿<!DOCTYPE html>
+
+<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>@ViewBag.Title</title>    
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="@Url.Content("~/Content/css/bootstrap.min.css")" type="text/css">
+    <link rel="stylesheet" href="@Url.Content("~/Content/css/bootstrap-select.min.css")" type="text/css">
+
+    <!-- Custom styles for this template -->
+    <link href="@Url.Content("~/Content/css/carousel.css")" rel="stylesheet">
+    <link href="~/Content/css/font-awesome.css" rel="stylesheet" />
+    <link href="@Url.Content("~/Content/css/style.css")" rel="stylesheet">
+
+    <script type="text/javascript">
+        function next(currentId) {
+            var nextId = currentId + 1;
+            $('.stage_style:lt(' + nextId + ')').removeClass().addClass(
+                'stage_style ' + "visited");
+            $('.stage_style:eq(' + nextId + ')').removeClass().addClass(
+                'stage_style ' + "current");
+            $('#stage-form-' + currentId).hide();//css("display", "none");
+            $('#stage-form-' + nextId).show();
+        }
+
+        function back(currentId) {
+            var preId = currentId - 1;
+            $('.stage_style:eq(' + currentId + ')').removeClass().addClass(
+                'stage_style');
+            $('.stage_style:eq(' + preId + ')').removeClass().addClass(
+                'stage_style ' + "current");
+            $('#stage-form-' + currentId).hide();
+            $('#stage-form-' + preId).show();
+        }
+
+    </script>
+</head>
+<body>
+    <div class="navbar-wrapper">
+        <div class="container">
+            <nav class="navbar navbar-fixed-top">
+                <!-- <div class="container"> -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"><img class="img-responsive" src="http://www.turnerduckworth.com/media/filer_public/b4/ac/b4ac5dfe-b335-403c-83b2-ec69e01f94e6/td-amazon-hero.svg" alt="Logo"></a>
+                </div>
+               
+                <ul id="menu">
+                    <li><a href="#"><b>Trang chủ</b></a></li>
+                    <li><a href="#about"><b>Thông tin</b></a></li>
+                    <li><a href="#contact"><b>Liên hệ</b></a></li>
+                    <li class="my-menu">
+                        <b>
+                            @if (Request.IsAuthenticated)
+                            {
+                               <text>Xin chào,</text> <a style="margin-right: 14px; color: white"href="@Url.Action("Index", "ManageAccount", new { customername = User.Identity.Name }) ">@Html.Encode(User.Identity.Name) </a>    
+                                
+                                @Html.ActionLink("Đăng xuất", "Logout", "Account")
+                            }
+                            else
+                            {
+                                @Html.ActionLink("Đăng kí", "Register", "Account")
+                                <span> | </span>
+                                @Html.ActionLink("Đăng nhập", "Login", "Account")
+                            }
+                        </b>
+                    </li>
+                </ul>
+                <!-- </div> -->
+            </nav>
+        </div>
+    </div>
+
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img class="first-slide" src="http://demo.bestdnnskins.com/portals/15/Images/banner_img4.jpg" alt="">
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>Example headline.</h1>
+                        <p>Placed advertisiment here</p>
+                        <p><a class="btn btn-md btn-primary" href="#" role="button">Sign up today</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img class="second-slide" src="http://wowslider.com/sliders/demo-72/data1/images/114h.jpg" alt="">
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>Another example headline.</h1>
+                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                        <p><a class="btn btn-md btn-primary" href="#" role="button">Learn more</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img class="third-slide" src="http://www.jssor.com/img/home/01.jpg" alt="">
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>One more for good measure.</h1>
+                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                        <p><a class="btn btn-md btn-primary" href="#" role="button">Browse gallery</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img class="fourth-slide" src="http://bxslider.com/images/home_slides/houses.jpg" alt="">
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>One more for good measure.</h1>
+                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                        <p><a class="btn btn-md btn-primary" href="#" role="button">Browse gallery</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img class="fifth-slide" src="http://bxslider.com/images/home_slides/hillside.jpg" alt="">
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>One more for good measure.</h1>
+                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                        <p><a class="btn btn-md btn-primary" href="#" role="button">Browse gallery</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!-- /.carousel -->
+
+    <!-- Main content-->
+    <div class="main-content">
+        @RenderBody()
+    </div>    
+    
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer container-fluid">
+            <p>&copy; 2015 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="@Url.Content("~/Scripts/jquery/jquery-1.11.3.min.js")"></script>
+    <!-- boostrap -->
+    <script type="text/javascript" src="@Url.Content("~/Scripts/bootstrap/bootstrap.min.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/Scripts/bootstrap/bootstrap-select.min.js")"></script>
+</body>
+</html>

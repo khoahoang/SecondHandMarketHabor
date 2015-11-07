@@ -1,0 +1,62 @@
+D:\Hoc\Subject\Quan_ly_du_an\Project\Source\InitializaProject\TraoDoiDoCu\TraoDoiDoCu\bin\TraoDoiDoCu.dll.config
+D:\Hoc\Subject\Quan_ly_du_an\Project\Source\InitializaProject\TraoDoiDoCu\TraoDoiDoCu\bin\TraoDoiDoCu.dll
+D:\Hoc\Subject\Quan_ly_du_an\Project\Source\InitializaProject\TraoDoiDoCu\TraoDoiDoCu\bin\TraoDoiDoCu.pdb
+D:\Hoc\Subject\Quan_ly_du_an\Project\Source\InitializaProject\TraoDoiDoCu\TraoDoiDoCu\bin\System.Web.Helpers.dll
+D:\Hoc\Subject\Quan_ly_du_an\Project\Source\InitializaProject\TraoDoiDoCu\TraoDoiDoCu\bin\System.Web.Mvc.dll
+D:\Hoc\Subject\Quan_ly_du_an\Project\Source\InitializaProject\TraoDoiDoCu\TraoDoiDoCu\bin\System.Web.Razor.dll
+D:\Hoc\Subject\Quan_ly_du_an\Project\Source\InitializaProject\TraoDoiDoCu\TraoDoiDoCu\bin\System.Web.Webpages.Deployment.dll
+D:\Hoc\Subject\Quan_ly_du_an\Project\Source\InitializaProject\TraoDoiDoCu\TraoDoiDoCu\bin\System.Web.Webpages.dll
+D:\Hoc\Subject\Quan_ly_du_an\Project\Source\InitializaProject\TraoDoiDoCu\TraoDoiDoCu\bin\System.Web.Webpages.Razor.dll
+D:\Hoc\Subject\Quan_ly_du_an\Project\Source\InitializaProject\TraoDoiDoCu\TraoDoiDoCu\bin\System.Web.Razor.xml
+D:\Hoc\Subject\Quan_ly_du_an\Project\Source\InitializaProject\TraoDoiDoCu\TraoDoiDoCu\bin\System.Web.Webpages.xml
+D:\Hoc\Subject\Quan_ly_du_an\Project\Source\InitializaProject\TraoDoiDoCu\TraoDoiDoCu\bin\System.Web.Webpages.Deployment.xml
+D:\Hoc\Subject\Quan_ly_du_an\Project\Source\InitializaProject\TraoDoiDoCu\TraoDoiDoCu\bin\System.Web.Webpages.Razor.xml
+D:\Hoc\Subject\Quan_ly_du_an\Project\Source\InitializaProject\TraoDoiDoCu\TraoDoiDoCu\bin\System.Web.Helpers.xml
+D:\Hoc\Subject\Quan_ly_du_an\Project\Source\InitializaProject\TraoDoiDoCu\TraoDoiDoCu\bin\System.Web.Mvc.xml
+D:\Hoc\Subject\Quan_ly_du_an\Project\Source\InitializaProject\TraoDoiDoCu\TraoDoiDoCu\obj\Debug\TraoDoiDoCu.dll
+D:\Hoc\Subject\Quan_ly_du_an\Project\Source\InitializaProject\TraoDoiDoCu\TraoDoiDoCu\obj\Debug\TraoDoiDoCu.pdb
+D:\Hoc\Subject\Quan_ly_du_an\Project\Source\InitializaProject\TraoDoiDoCu\TraoDoiDoCu\obj\Debug\TraoDoiDoCu.csprojResolveAssemblyReference.cache
+E:\Data\Dropbox\Work space\A4\semaster1\QuanLyDuAn\BigGroup\SecondHandMarket\source\TraoDoiDoCu\bin\TraoDoiDoCu.dll.config
+E:\Data\Dropbox\Work space\A4\semaster1\QuanLyDuAn\BigGroup\SecondHandMarket\source\TraoDoiDoCu\bin\TraoDoiDoCu.dll
+E:\Data\Dropbox\Work space\A4\semaster1\QuanLyDuAn\BigGroup\SecondHandMarket\source\TraoDoiDoCu\bin\TraoDoiDoCu.pdb
+E:\Data\Dropbox\Work space\A4\semaster1\QuanLyDuAn\BigGroup\SecondHandMarket\source\TraoDoiDoCu\bin\EntityFramework.dll
+E:\Data\Dropbox\Work space\A4\semaster1\QuanLyDuAn\BigGroup\SecondHandMarket\source\TraoDoiDoCu\bin\EntityFramework.SqlServer.dll
+E:\Data\Dropbox\Work space\A4\semaster1\QuanLyDuAn\BigGroup\SecondHandMarket\source\TraoDoiDoCu\bin\System.Web.Helpers.dll
+E:\Data\Dropbox\Work space\A4\semaster1\QuanLyDuAn\BigGroup\SecondHandMarket\source\TraoDoiDoCu\bin\System.Web.Mvc.dll
+E:\Data\Dropbox\Work space\A4\semaster1\QuanLyDuAn\BigGroup\SecondHandMarket\source\TraoDoiDoCu\bin\System.Web.Razor.dll
+E:\Data\Dropbox\Work space\A4\semaster1\QuanLyDuAn\BigGroup\SecondHandMarket\source\TraoDoiDoCu\bin\System.Web.Webpages.Deployment.dll
+E:\Data\Dropbox\Work space\A4\semaster1\QuanLyDuAn\BigGroup\SecondHandMarket\source\TraoDoiDoCu\bin\System.Web.Webpages.dll
+E:\Data\Dropbox\Work space\A4\semaster1\QuanLyDuAn\BigGroup\SecondHandMarket\source\TraoDoiDoCu\bin\System.Web.Webpages.Razor.dll
+E:\Data\Dropbox\Work space\A4\semaster1\QuanLyDuAn\BigGroup\SecondHandMarket\source\TraoDoiDoCu\bin\EntityFramework.xml
+E:\Data\Dropbox\Work space\A4\semaster1\QuanLyDuAn\BigGroup\SecondHandMarket\source\TraoDoiDoCu\bin\EntityFramework.SqlServer.xml
+E:\Data\Dropbox\Work space\A4\semaster1\QuanLyDuAn\BigGroup\SecondHandMarket\source\TraoDoiDoCu\bin\System.Web.Razor.xml
+E:\Data\Dropbox\Work space\A4\semaster1\QuanLyDuAn\BigGroup\SecondHandMarket\source\TraoDoiDoCu\bin\System.Web.Webpages.xml
+E:\Data\Dropbox\Work space\A4\semaster1\QuanLyDuAn\BigGroup\SecondHandMarket\source\TraoDoiDoCu\bin\System.Web.Webpages.Deployment.xml
+E:\Data\Dropbox\Work space\A4\semaster1\QuanLyDuAn\BigGroup\SecondHandMarket\source\TraoDoiDoCu\bin\System.Web.Webpages.Razor.xml
+E:\Data\Dropbox\Work space\A4\semaster1\QuanLyDuAn\BigGroup\SecondHandMarket\source\TraoDoiDoCu\bin\System.Web.Helpers.xml
+E:\Data\Dropbox\Work space\A4\semaster1\QuanLyDuAn\BigGroup\SecondHandMarket\source\TraoDoiDoCu\bin\System.Web.Mvc.xml
+E:\Data\Dropbox\Work space\A4\semaster1\QuanLyDuAn\BigGroup\SecondHandMarket\source\TraoDoiDoCu\obj\Debug\TraoDoiDoCu.csprojResolveAssemblyReference.cache
+E:\Data\Dropbox\Work space\A4\semaster1\QuanLyDuAn\BigGroup\SecondHandMarket\source\TraoDoiDoCu\obj\Debug\TraoDoiDoCu.dll
+E:\Data\Dropbox\Work space\A4\semaster1\QuanLyDuAn\BigGroup\SecondHandMarket\source\TraoDoiDoCu\obj\Debug\TraoDoiDoCu.pdb
+D:\Hoc\Subject\Quan_ly_du_an\Project\Project\TraoDoiHabor\SecondHandMarket\source\TraoDoiDoCu\bin\TraoDoiDoCu.dll.config
+D:\Hoc\Subject\Quan_ly_du_an\Project\Project\TraoDoiHabor\SecondHandMarket\source\TraoDoiDoCu\bin\TraoDoiDoCu.dll
+D:\Hoc\Subject\Quan_ly_du_an\Project\Project\TraoDoiHabor\SecondHandMarket\source\TraoDoiDoCu\bin\TraoDoiDoCu.pdb
+D:\Hoc\Subject\Quan_ly_du_an\Project\Project\TraoDoiHabor\SecondHandMarket\source\TraoDoiDoCu\bin\EntityFramework.dll
+D:\Hoc\Subject\Quan_ly_du_an\Project\Project\TraoDoiHabor\SecondHandMarket\source\TraoDoiDoCu\bin\EntityFramework.SqlServer.dll
+D:\Hoc\Subject\Quan_ly_du_an\Project\Project\TraoDoiHabor\SecondHandMarket\source\TraoDoiDoCu\bin\System.Web.Helpers.dll
+D:\Hoc\Subject\Quan_ly_du_an\Project\Project\TraoDoiHabor\SecondHandMarket\source\TraoDoiDoCu\bin\System.Web.Mvc.dll
+D:\Hoc\Subject\Quan_ly_du_an\Project\Project\TraoDoiHabor\SecondHandMarket\source\TraoDoiDoCu\bin\System.Web.Razor.dll
+D:\Hoc\Subject\Quan_ly_du_an\Project\Project\TraoDoiHabor\SecondHandMarket\source\TraoDoiDoCu\bin\System.Web.Webpages.Deployment.dll
+D:\Hoc\Subject\Quan_ly_du_an\Project\Project\TraoDoiHabor\SecondHandMarket\source\TraoDoiDoCu\bin\System.Web.Webpages.dll
+D:\Hoc\Subject\Quan_ly_du_an\Project\Project\TraoDoiHabor\SecondHandMarket\source\TraoDoiDoCu\bin\System.Web.Webpages.Razor.dll
+D:\Hoc\Subject\Quan_ly_du_an\Project\Project\TraoDoiHabor\SecondHandMarket\source\TraoDoiDoCu\bin\EntityFramework.xml
+D:\Hoc\Subject\Quan_ly_du_an\Project\Project\TraoDoiHabor\SecondHandMarket\source\TraoDoiDoCu\bin\EntityFramework.SqlServer.xml
+D:\Hoc\Subject\Quan_ly_du_an\Project\Project\TraoDoiHabor\SecondHandMarket\source\TraoDoiDoCu\bin\System.Web.Razor.xml
+D:\Hoc\Subject\Quan_ly_du_an\Project\Project\TraoDoiHabor\SecondHandMarket\source\TraoDoiDoCu\bin\System.Web.Webpages.xml
+D:\Hoc\Subject\Quan_ly_du_an\Project\Project\TraoDoiHabor\SecondHandMarket\source\TraoDoiDoCu\bin\System.Web.Webpages.Deployment.xml
+D:\Hoc\Subject\Quan_ly_du_an\Project\Project\TraoDoiHabor\SecondHandMarket\source\TraoDoiDoCu\bin\System.Web.Webpages.Razor.xml
+D:\Hoc\Subject\Quan_ly_du_an\Project\Project\TraoDoiHabor\SecondHandMarket\source\TraoDoiDoCu\bin\System.Web.Helpers.xml
+D:\Hoc\Subject\Quan_ly_du_an\Project\Project\TraoDoiHabor\SecondHandMarket\source\TraoDoiDoCu\bin\System.Web.Mvc.xml
+D:\Hoc\Subject\Quan_ly_du_an\Project\Project\TraoDoiHabor\SecondHandMarket\source\TraoDoiDoCu\obj\Debug\TraoDoiDoCu.csprojResolveAssemblyReference.cache
+D:\Hoc\Subject\Quan_ly_du_an\Project\Project\TraoDoiHabor\SecondHandMarket\source\TraoDoiDoCu\obj\Debug\TraoDoiDoCu.dll
+D:\Hoc\Subject\Quan_ly_du_an\Project\Project\TraoDoiHabor\SecondHandMarket\source\TraoDoiDoCu\obj\Debug\TraoDoiDoCu.pdb

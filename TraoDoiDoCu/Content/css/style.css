@@ -1,0 +1,33 @@
+﻿/**
+    khoa hoang create date 30-10.2015
+    */
+.my-content{
+    margin: 0 auto;
+    width: 455px;
+}
+.navbar navbar-fixed-top{
+    border-bottom: 1px solid #c7c8c9;
+}
+#menu {
+    margin-top: 14px;
+    list-style: none;
+    float: right;
+}
+#menu li{
+    padding-right: 14px;
+    display: inline;
+}
+#menu a,span{
+    color: wheat;
+}
+.my-menu{
+    color: wheat;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+.message{
+    color: blue;
+}
+.alert{
+    color: red;
+}
