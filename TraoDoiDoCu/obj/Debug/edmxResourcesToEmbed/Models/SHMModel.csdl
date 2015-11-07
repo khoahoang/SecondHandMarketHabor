@@ -34,17 +34,17 @@
     <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
     <Property Name="UserName" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
     <Property Name="PassWord" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
-    <Property Name="FirstName" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
-    <Property Name="LastName" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="FirstName" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="true" />
+    <Property Name="LastName" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="true" />
     <Property Name="Email" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
     <Property Name="Admin" Type="Boolean" Nullable="false" />
     <Property Name="Ban" Type="Boolean" />
     <Property Name="Rating" Type="Int32" />
     <Property Name="Phone" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Products" Relationship="Self.FK_Product_Users" FromRole="Users" ToRole="Product" />
     <Property Name="ActiveCode" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
     <Property Name="ResetPassword" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
     <Property Name="DateRequest" Type="DateTime" Precision="3" />
-    <NavigationProperty Name="Products" Relationship="Self.FK_Product_Users" FromRole="Users" ToRole="Product" />
   </EntityType>
   <Association Name="FK_Product_Category">
     <End Role="Category" Type="Self.Category" Multiplicity="1" />

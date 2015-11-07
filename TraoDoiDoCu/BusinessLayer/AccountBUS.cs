@@ -53,7 +53,7 @@ namespace TraoDoiDoCu.BusinessLayer
                 mm.Subject = "Email xác nhận tài khoản trên website Trao đổi đồ cũ";
                 string body = "Thân chào, " + model.UserName + ",";
                 body += "<br /><br />Cảm ơn bạn đã đăng ký tài khoản trên website Trao đổi đồ cũ, xin hãy click vào đường link bên dưới để kích hoạt tài khoản.";
-                body += "<br /><a href = '" + "http://localhost:3726/Account/Activate?Username=" + model.UserName + "&ActivationCode=" + Active_code + "'>Click vào đây để kích hoạt tài khoản.</a>";
+                body += "<br /><a href = 'http://" + HttpContext.Current.Request.Url.Host + ":" + HttpContext.Current.Request.Url.Port + "/Account/Activate?Username=" + model.UserName + "&ActivationCode=" + Active_code + "'>Click vào đây để kích hoạt tài khoản.</a>";
                 body += "<br /><br />Thanks";
                 mm.Body = body;
                 mm.IsBodyHtml = true;

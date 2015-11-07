@@ -110,35 +110,33 @@
     <Content Include="Content\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.woff2" />
-    <EntityDeploy Include="Models\TraoDoiDoCu.edmx">
+    <EntityDeploy Include="Models\SecondHandTrading.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>TraoDoiDoCu.Designer.cs</LastGenOutput>
+      <LastGenOutput>SecondHandTrading.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <Content Include="Models\TraoDoiDoCu.edmx.diagram">
-      <DependentUpon>TraoDoiDoCu.edmx</DependentUpon>
+    <Content Include="Models\SecondHandTrading.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>SecondHandTrading.edmx</DependentUpon>
+      <LastGenOutput>SecondHandTrading.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Models\SecondHandTrading.edmx.diagram">
+      <DependentUpon>SecondHandTrading.edmx</DependentUpon>
+    </Content>
+    <Content Include="Models\SecondHandTrading.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>SecondHandTrading.edmx</DependentUpon>
+      <LastGenOutput>SecondHandTrading.cs</LastGenOutput>
     </Content>
     <None Include="Scripts\jquery\jquery-1.10.2.intellisense.js" />
-    <Content Include="Models\TraoDoiDoCu.Context.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>TraoDoiDoCu.edmx</DependentUpon>
-      <LastGenOutput>TraoDoiDoCu.Context.cs</LastGenOutput>
-    </Content>
-    <Content Include="Models\TraoDoiDoCu.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>TraoDoiDoCu.edmx</DependentUpon>
-      <LastGenOutput>TraoDoiDoCu.cs</LastGenOutput>
-    </Content>
     <Content Include="Scripts\bootstrap\bootstrap-select.min.js" />
     <Content Include="Scripts\bootstrap\bootstrap.min.js" />
-    <Content Include="Scripts\jquery\jquery-1.11.3.min.map" />
+    <Content Include="Scripts\jquery\jquery-1.10.2.js" />
+    <Content Include="Scripts\jquery\jquery-1.10.2.min.js" />
     <None Include="Scripts\jquery\jquery.validate-vsdoc.js" />
-    <Content Include="Scripts\jquery\jquery-1.11.3.js" />
-    <Content Include="Scripts\jquery\jquery-1.11.3.min.js" />
     <Content Include="Scripts\jquery\jquery.validate.js" />
     <Content Include="Scripts\jquery\jquery.validate.min.js" />
     <Content Include="Scripts\jquery\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery\jquery.validate.unobtrusive.min.js" />
-    <Content Include="Views\Page404.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -146,7 +144,6 @@
     <Compile Include="BusinessLayer\AccountBUS.cs" />
     <Compile Include="Controllers\Account\AccountController.cs" />
     <Compile Include="Controllers\Home\HomeController.cs" />
-    <Compile Include="Controllers\Product\ProductController.cs" />
     <Compile Include="DataAcessLayer\AccountDAL.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -156,44 +153,46 @@
     <Compile Include="Models\Account\RegisterViewModel.cs" />
     <Compile Include="Models\Account\ResetPasswordViewModel.cs" />
     <Compile Include="Models\Category.cs">
-      <DependentUpon>TraoDoiDoCu.tt</DependentUpon>
+      <DependentUpon>SecondHandTrading.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Product.cs">
-      <DependentUpon>TraoDoiDoCu.tt</DependentUpon>
+      <DependentUpon>SecondHandTrading.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\TraoDoiDoCu.Context.cs">
+    <Compile Include="Models\SecondHandTrading.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>TraoDoiDoCu.Context.tt</DependentUpon>
+      <DependentUpon>SecondHandTrading.Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\TraoDoiDoCu.cs">
+    <Compile Include="Models\SecondHandTrading.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>TraoDoiDoCu.tt</DependentUpon>
+      <DependentUpon>SecondHandTrading.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\TraoDoiDoCu.Designer.cs">
+    <Compile Include="Models\SecondHandTrading.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>TraoDoiDoCu.edmx</DependentUpon>
+      <DependentUpon>SecondHandTrading.edmx</DependentUpon>
     </Compile>
     <Compile Include="Models\User.cs">
-      <DependentUpon>TraoDoiDoCu.tt</DependentUpon>
+      <DependentUpon>SecondHandTrading.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\web.config" />
+    <Content Include="Views\web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="packages.config" />
     <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Scripts\jquery\jquery-1.10.2.min.map" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Product\Details.cshtml" />
-    <Content Include="Views\Account\ForgotPassword.cshtml" />
     <Content Include="Views\Account\Login.cshtml" />
-    <Content Include="Views\Account\Logout.cshtml" />
     <Content Include="Views\Account\Register.cshtml" />
-    <Content Include="Views\Account\ResetPassword.cshtml" />
     <Content Include="Views\Account\Result.cshtml" />
+    <Content Include="Views\Account\Logout.cshtml" />
+    <Content Include="Views\Account\ResetPassword.cshtml" />
+    <Content Include="Views\Account\ForgotPassword.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
